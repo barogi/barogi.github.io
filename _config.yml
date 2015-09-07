@@ -8,12 +8,13 @@ highlighter: pygments
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
+github: true
 title : Jekyll Bootstrap
 tagline: Site Tagline
 author :
   name : Name Lastname
   email : blah@email.test
-  github : username
+  github : barogi
   twitter : username
   feedburner : feedname
 
@@ -25,7 +26,7 @@ author :
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://username.github.io
+production_url : http://barogi.github.io
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -99,14 +100,15 @@ JB :
   # Set 'provider' to the analytics provider you want to use.
   # Set 'provider' to false to turn analytics off globally.
   #        
-  analytics :
-    provider : google
+
+  analytics:
+    provider: google
     gauges :
-        site_id : 'SITE ID'
-    google : 
-        tracking_id : 'UA-123-12'
+        site_id : 'barogi.github.io'
+    google: 
+        tracking_id: 'UA-67279235-1'
     getclicky :
-      site_id : 
+      site_id :
     mixpanel :
         token : '_MIXPANEL_TOKEN_'
     piwik :
